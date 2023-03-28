@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@rxjs-explorer/outer-observables": [
+        "libs/outer-observables/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
